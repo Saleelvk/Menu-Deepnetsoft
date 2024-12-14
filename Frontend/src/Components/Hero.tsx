@@ -1,3 +1,5 @@
+import RectangleImage from "../assets/images/Rectangle 103.png";
+
 function Hero() {
   return (
     <div>
@@ -5,7 +7,7 @@ function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center h-full bg-no-repeat opacity-70"
           style={{
-            backgroundImage: "url('/src/assets/images/Rectangle 103.png')",
+            backgroundImage: `url(${RectangleImage})`,
           }}
         ></div>
         <div className="relative z-10">
