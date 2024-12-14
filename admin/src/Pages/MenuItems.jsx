@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import baseUrl from "../baseUrl";
 
 function MenuItems() {
-  const { Id } = useParams(); // This gets the menu Id from the URL
+  const { Id } = useParams();
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [price, setPrice] = useState("");
