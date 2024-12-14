@@ -8,13 +8,13 @@ interface Menu {
 }
 
 interface MenuFilterProps {
-  onMenuSelect: (menuId: string) => void; // Callback function to pass selected menuId
+  onMenuSelect: (menuId: string) => void; 
 }
 
 function MenuFilter({ onMenuSelect }: MenuFilterProps) {
 
-  const [menus, setMenus] = useState<Menu[]>([]); // State to store fetched menus
-  const [message, setMessage] = useState<string>(""); // For error or no data message
+  const [menus, setMenus] = useState<Menu[]>([]); 
+  const [message, setMessage] = useState<string>("");
 
 
   useEffect(() => {
