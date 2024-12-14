@@ -8,7 +8,7 @@ import MenuItems from './Pages/MenuItems';
 function App() {
   return (
     <>
-      <NavBar /> {/* Navbar will persist across pages */}
+      <NavBar /> 
       <Routes>
         <Route path="/" element={<Hero />} /> {/* Default route */}
         <Route path="/menu:/id" element={<Menu />} />
