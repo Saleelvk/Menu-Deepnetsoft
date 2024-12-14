@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { AiOutlineDelete } from 'react-icons/ai'; // Import delete icon from react-icons
+import { AiOutlineDelete } from 'react-icons/ai';
 import baseUrl from '../baseUrl';
 function Menumenu() {
   const [menus, setMenus] = useState([]);
@@ -67,7 +67,7 @@ function Menumenu() {
                 <p>{menu.description}</p>
                 <div className="mt-4 flex justify-between items-center">
                   <Link
-                    to={`/Items/${menu._id}`} // Link to the page where items can be added to this menu
+                    to={`/Items/${menu._id}`} 
                     className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition"
                   >
                     Add Items
