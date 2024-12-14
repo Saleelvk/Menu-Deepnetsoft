@@ -8,7 +8,7 @@ function Hero() {
       <p className="text-white md:text-4xl  text-sm   bg-gray-900  px-6  md:px-10 md:py-5 py-3 rounded-lg hover:bg-blue-500 font-bold transition-all ease-in"> Add Menu </p>
         </Link>
         <Link to={'/menuItems'}>
-      <p className="text-white md:text-4xl  text-sm   bg-gray-900  hover:bg-blue-500 font-bold transition-all ease-in  px-10 py-5 rounded-lg ">Add Menu items</p>
+      <p className="text-white md:text-4xl  text-sm   bg-gray-900  hover:bg-blue-500 font-bold transition-all ease-in  px-6  md:px-10 md:py-5 py-3 rounded-lg ">Add Menu items</p>
         </Link>
     </div>
   );
