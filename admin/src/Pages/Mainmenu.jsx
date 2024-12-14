@@ -6,7 +6,7 @@ function Menumenu() {
   const [menus, setMenus] = useState([]);
   const [message, setMessage] = useState('');
 
-  // Fetch menus when the component mounts
+  
   useEffect(() => {
     const fetchMenus = async () => {
       try {
