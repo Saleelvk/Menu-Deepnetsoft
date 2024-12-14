@@ -106,7 +106,7 @@ function MenuItems() {
                 >
                   <h3 className="text-lg font-semibold">{item.name}</h3>
                   <p>{item.description}</p>
-                  <p className="font-bold text-blue-500">{item.price} USD</p>
+                  <p className="font-bold text-blue-500">{item.price}INR</p>
                 </div>
               ))
             )}
