@@ -20,4 +20,4 @@ app.listen(PORT, () => {
   connectDB();
 });
 
-// mongodb+srv://saleelvkshemi:oZezwSq47Y8tD3y9@cluster0.qs1l3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
